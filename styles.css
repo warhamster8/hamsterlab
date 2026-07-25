@@ -216,8 +216,33 @@ h2 {
   box-shadow: 0 4px 18px -10px rgba(30, 41, 59, 0.18);
 }
 
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-link {
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: var(--teal);
+}
+
 .teaser {
   border-top: 4px solid var(--teal-bright);
+}
+
+.tools {
+  border-top: 4px solid #22d3ee;
+}
+
+.tools .btn {
+  margin-top: 0.75rem;
 }
 
 .support {
@@ -273,4 +298,14 @@ h2 {
   margin: 0.75rem 0 0;
   font-size: 0.8rem;
   color: #64748b;
+}
+
+.fine a {
+  color: #5eead4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.fine a:hover {
+  text-decoration: underline;
 }
