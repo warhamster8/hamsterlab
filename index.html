@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hamster-Lab — Tecnologia con zero spocchia</title>
+    <meta
+      name="description"
+      content="Hamster-Lab costruisce progetti digitali umani e anti-snob. Prossimo progetto: ZeroSnob."
+    />
+    <link rel="icon" href="assets/hamsterlab-logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="wrap topbar-inner">
+        <a class="brand" href="#top">
+          <img
+            class="brand-mark"
+            src="assets/hamsterlab-logo.png"
+            alt="Hamster-Lab"
+            width="48"
+            height="48"
+          />
+          <span>Hamster-Lab</span>
+        </a>
+        <!-- Aggiorna questo URL con il tuo Buy Me a Coffee reale -->
+        <a
+          class="btn btn-sm"
+          href="https://www.buymeacoffee.com/hamsterlab"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Offrici un caffè</a
+        >
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">Laboratorio digitale · Gnun-a Paüra</p>
+          <h1>
+            Tecnologia umana,<br />
+            <span class="grad">zero spocchia</span>.
+          </h1>
+          <p class="lede">
+            Hamster-Lab nasce per chi in ufficio ha paura di “fare la domanda
+            stupida”. Costruiamo strumenti e community dove l’informatica torna
+            pratica, ironica e accessibile.
+          </p>
+          <div class="actions">
+            <a
+              class="btn btn-primary"
+              href="https://www.buymeacoffee.com/hamsterlab"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Buy Me a Coffee</a
+            >
+            <a class="btn btn-ghost" href="#zerosnob">Scopri ZeroSnob</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            class="logo-hero"
+            src="assets/hamsterlab-logo.png"
+            alt="Logo Hamster-Lab"
+            width="320"
+            height="320"
+          />
+          <p class="orb-caption">Emblema circolare · ideale per avatar e Buy Me a Coffee</p>
+        </div>
+      </section>
+
+      <section id="zerosnob" class="section wrap">
+        <article class="card teaser">
+          <p class="eyebrow">Prossimo progetto</p>
+          <h2>ZeroSnob è in arrivo</h2>
+          <p>
+            Un forum anti-snob per i drammi d’ufficio: Excel, PDF, cartelle,
+            Windows, script e micro-tool. Nessuna domanda è stupida. Il sito non
+            è ancora online — siamo in fase di lancio.
+          </p>
+          <ul class="chips" aria-label="Categorie ZeroSnob">
+            <li>📊 Excel</li>
+            <li>📄 PDF</li>
+            <li>💻 Code</li>
+            <li>⌨️ Script</li>
+            <li>🛠️ Micro-Tool</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section wrap">
+        <article class="card support">
+          <h2>Sostieni il laboratorio</h2>
+          <p>
+            Il caffè serve a coprire server, tool e ore di sviluppo mentre
+            ZeroSnob prende forma. Se ti piace l’idea di un’assistenza
+            informatica umana e anti-snob, aiutaci a farlo nascere.
+          </p>
+          <a
+            class="btn btn-primary"
+            href="https://www.buymeacoffee.com/hamsterlab"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Offrici un caffè</a
+          >
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <p>
+          Un progetto orchestrato da <strong>Hamster-Lab</strong> con la
+          filosofia <em>Gnun-a Paüra</em>.
+        </p>
+        <p class="fine">
+          © <span id="year"></span> Hamster-Lab · Sito ufficiale temporaneo su
+          GitHub Pages
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
