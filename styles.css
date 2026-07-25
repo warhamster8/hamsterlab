@@ -84,22 +84,20 @@ body {
 }
 
 .hero-visual {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-hero {
   display: block;
-  width: min(100%, 300px);
+  width: min(100%, 280px);
+  aspect-ratio: 1 / 1;
   height: auto;
-  margin-inline: auto;
-  border-radius: 999px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
   box-shadow: var(--shadow);
-}
-
-.orb-caption {
-  margin: 0.85rem 0 0;
-  font-size: 0.8rem;
-  color: var(--muted);
 }
 
 .hero {
