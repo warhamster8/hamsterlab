@@ -18,10 +18,10 @@ Poi vai su `http://localhost:8080`.
 Nel file `index.html` cerca e sostituisci **tutte** le occorrenze di:
 
 ```text
-https://www.buymeacoffee.com/hamsterlab
+https://buymeacoffee.com/hamsterlab
 ```
 
-con il tuo URL reale (es. `https://www.buymeacoffee.com/tuonome`).
+(URL reale della pagina: https://buymeacoffee.com/hamsterlab)
 
 Ci sono 3 link (header, hero, sezione supporto).
 
