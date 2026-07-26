@@ -1,68 +1,40 @@
 # Hamster-Lab — GitHub Pages
 
-Landing statica ufficiale (temporanea) di **Hamster-Lab**: brand, teaser ZeroSnob e CTA Buy Me a Coffee. Nessun social inventato.
+Landing ufficiale di **Hamster-Lab**: brand, **ZeroSnob** (live) e CTA **GitHub Sponsors**.
+
+Live: https://warhamster8.github.io/hamsterlab/
 
 ## Anteprima locale
-
-Apri `index.html` nel browser, oppure dalla cartella:
 
 ```bash
 cd hamsterlab-site
 python3 -m http.server 8080
 ```
 
-Poi vai su `http://localhost:8080`.
+Poi apri `http://localhost:8080`.
 
-## Aggiorna Buy Me a Coffee
+## Link principali
 
-Nel file `index.html` cerca e sostituisci **tutte** le occorrenze di:
+| Destinazione | URL |
+|--------------|-----|
+| ZeroSnob | https://www.zerosnob.app |
+| Cyber tools | https://warhamster8.github.io/hamster-lab/ |
+| GitHub Sponsors | https://github.com/sponsors/warhamster8 |
 
-```text
-https://buymeacoffee.com/hamsterlab
-```
-
-(URL reale della pagina: https://buymeacoffee.com/hamsterlab)
-
-Ci sono 3 link (header, hero, sezione supporto).
-
-## Pubblica su GitHub Pages
-
-1. Su GitHub crea un repository **vuoto** (es. `hamster-lab`). Non aggiungere README automatico se preferisci un push pulito.
-2. Dalla cartella `hamsterlab-site/` inizializza e pusha il contenuto sulla **root** di `main`:
+## Pubblica aggiornamenti
 
 ```bash
 cd hamsterlab-site
-git init
 git add .
-git commit -m "Add Hamster-Lab landing for GitHub Pages"
-git branch -M main
-git remote add origin https://github.com/TUO_USER/hamster-lab.git
-git push -u origin main
+git commit -m "Update landing: ZeroSnob live + GitHub Sponsors"
+git push origin main
 ```
 
-3. Nel repo: **Settings → Pages → Build and deployment**
-   - Source: **Deploy from a branch**
-   - Branch: **main** / folder **/(root)**
-   - Save
-4. Dopo 1–2 minuti l’URL sarà tipicamente:
+GitHub Pages serve il branch `main` dalla root. Dopo 1–2 minuti:
+https://warhamster8.github.io/hamsterlab/
 
-```text
-https://TUO_USER.github.io/hamster-lab/
-```
-
-5. Incolla quell’URL nel campo **Website** di Buy Me a Coffee.
-
-### Opzione profilo `username.github.io`
-
-Se crei il repo `TUO_USER.github.io`, pusha questi file sulla root di `main`: l’URL sarà `https://TUO_USER.github.io/`.
-
-## Contenuto incluso
+## Contenuto
 
 - `index.html` — landing
 - `styles.css` — stile brand
-- `assets/hamsterlab-logo.png` — logo circolare (da `public/HamsterLab_LogoCircular.png`)
-
-## Note
-
-- Nessun build step (HTML/CSS statici).
-- ZeroSnob resta “in arrivo”: aggiorna la sezione quando il prodotto sarà online.
+- `assets/hamsterlab-logo.png` — logo circolare

@@ -235,6 +235,10 @@ h2 {
   border-top: 4px solid var(--teal-bright);
 }
 
+.teaser .btn {
+  margin-top: 1.25rem;
+}
+
 .tools {
   border-top: 4px solid #22d3ee;
 }
