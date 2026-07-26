@@ -190,6 +190,11 @@ h2 {
   color: white;
 }
 
+.btn-sm-alt {
+  background: var(--orange);
+  color: white;
+}
+
 .btn-primary {
   background: linear-gradient(90deg, var(--orange), #fb923c);
   color: white;
@@ -252,8 +257,8 @@ h2 {
   text-align: left;
 }
 
-.support .btn {
-  margin-top: 0.5rem;
+.support-actions {
+  margin-top: 0.75rem;
 }
 
 .chips {

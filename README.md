@@ -1,6 +1,6 @@
 # Hamster-Lab — GitHub Pages
 
-Landing ufficiale di **Hamster-Lab**: brand, **ZeroSnob** (live) e CTA **GitHub Sponsors**.
+Landing ufficiale di **Hamster-Lab**: brand, **ZeroSnob** (live), **GitHub Sponsors** e **Buy Me a Coffee**.
 
 Live: https://warhamster8.github.io/hamsterlab/
 
@@ -20,6 +20,7 @@ Poi apri `http://localhost:8080`.
 | ZeroSnob | https://www.zerosnob.app |
 | Cyber tools | https://warhamster8.github.io/hamster-lab/ |
 | GitHub Sponsors | https://github.com/sponsors/warhamster8 |
+| Buy Me a Coffee | https://buymeacoffee.com/hamsterlab |
 
 ## Pubblica aggiornamenti
 
