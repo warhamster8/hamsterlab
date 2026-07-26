@@ -38,4 +38,4 @@ https://warhamster8.github.io/hamsterlab/
 
 - `index.html` — landing
 - `styles.css` — stile brand
-- `assets/hamsterlab-logo.png` — logo circolare
+- `assets/3DLogo.png` — logo circolare 3D
